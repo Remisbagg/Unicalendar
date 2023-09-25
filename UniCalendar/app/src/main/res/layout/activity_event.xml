@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EventActivity">
+    <TextView
+        android:id="@+id/tv_fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Fecha elegida"
+        android:textSize="15sp" />
+    <EditText
+        android:id="@+id/et_clase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Clase"
+        android:inputType="text"
+
+        android:minHeight="48dp" />
+    <EditText
+        android:id="@+id/et_hora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hora"
+        android:inputType="text"
+
+        android:minHeight="48dp" />
+    <EditText
+        android:id="@+id/et_porfesor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Profesor"
+        android:inputType="text"
+
+        android:minHeight="48dp" />
+    <EditText
+        android:id="@+id/et_detalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Detalle"
+        android:inputType="text"
+
+        android:minHeight="48dp" />
+</LinearLayout>

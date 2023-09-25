@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UniCalendar</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="title_activity_inicio">InicioActivity</string>
+    <string name="nav_header_title">Usuario</string>
+    <string name="nav_header_subtitle">usuario@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="horario">Horario</string>
+    <string name="recordatorio">Recordatorio</string>
+    <string name="notificaciones">Notificaciones</string>
+</resources>

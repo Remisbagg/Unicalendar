@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+        <ImageView
+        android:layout_width="225dp"
+        android:layout_height="360dp"
+        android:layout_gravity="center"
+        android:src="@drawable/user"
+            />
+
+        <EditText
+            android:id="@+id/tv_usu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:inputType="text"
+
+        android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/tv_contra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+
+        android:minHeight="48dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="0.3" />
+        <Button
+        android:id="@+id/loginButton"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_login"
+        android:text="Iniciar Sesión"
+        android:textColor="@color/white" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_weight="0.3" />
+    <TextView
+        android:id="@+id/tv_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Registrarse"
+        android:textSize="15sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+        <ImageView
+            android:layout_width="309dp"
+            android:layout_height="151dp"
+            android:layout_gravity="bottom|center"
+            android:src="@drawable/logoucround" />
+</LinearLayout>
+
