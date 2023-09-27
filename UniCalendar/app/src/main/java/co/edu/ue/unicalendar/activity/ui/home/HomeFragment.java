@@ -15,6 +15,7 @@ import androidx.lifecycle.ViewModelProvider;
 import co.edu.ue.unicalendar.EventActivity; // Asegúrate de importar la clase EventActivity
 import co.edu.ue.unicalendar.R;
 import co.edu.ue.unicalendar.databinding.FragmentHomeBinding;
+import co.edu.ue.unicalendar.eventOrNoti;
 
 public class HomeFragment extends Fragment {
 
@@ -28,8 +29,7 @@ public class HomeFragment extends Fragment {
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textHome;
-        homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+
 
         // Encuentra el CalendarView y configura el OnDateChangeListener
         CalendarView calendarView = root.findViewById(R.id.calendar_view);
@@ -40,7 +40,7 @@ public class HomeFragment extends Fragment {
                 String selectedDate = year + "-" + (month + 1) + "-" + dayOfMonth;
 
                 // Crea un Intent para abrir la actividad de eventos y pasa la fecha seleccionada como extra.
-                Intent intent = new Intent(getActivity(), EventActivity.class);
+                Intent intent = new Intent(getActivity(), eventOrNoti.class);
                 intent.putExtra("selected_date", selectedDate);
                 startActivity(intent);
             }

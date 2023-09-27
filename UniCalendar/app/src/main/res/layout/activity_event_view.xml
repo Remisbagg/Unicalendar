@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".EventActivity">
+    tools:context=".eventView">
     <TextView
         android:id="@+id/tv_fecha"
         android:layout_width="wrap_content"
@@ -13,53 +13,46 @@
         android:layout_gravity="center"
         android:text="Fecha elegida"
         android:textSize="15sp" />
-    <EditText
-        android:id="@+id/et_clase"
+    <TextView
+        android:id="@+id/tv_clase"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Clase"
         android:inputType="text"
 
         android:minHeight="48dp" />
-    <EditText
-        android:id="@+id/et_hora"
+    <TextView
+        android:id="@+id/tv_horaI"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Hora Inicial"
+        android:hint="Hora inicio"
         android:focusable="false"
         android:clickable="true"
         android:minHeight="48dp" />
-    <EditText
-        android:id="@+id/et_horaF"
+    <TextView
+        android:id="@+id/tv_horaF"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Hora Final"
+        android:hint="Hora Fin"
         android:focusable="false"
         android:clickable="true"
         android:minHeight="48dp" />
-    <EditText
-        android:id="@+id/et_profesor"
+    <TextView
+        android:id="@+id/tv_profesor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Profesor"
         android:inputType="text"
 
         android:minHeight="48dp" />
-    <EditText
-        android:id="@+id/et_detalle"
+    <TextView
+        android:id="@+id/tv_detalle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Detalle"
         android:inputType="text"
 
         android:minHeight="48dp" />
-    <Button
-        android:id="@+id/btn_guardar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:background="@drawable/btn_login"
-        android:textColor="@color/white"
-        android:text="Guardar" />
+
 
 </LinearLayout>

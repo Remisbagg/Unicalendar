@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/etNom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:fontFamily="@font/proximanovaregular"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/seeEvent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ver"
+            android:fontFamily="@font/proximanovaregular"
+            android:textColor="@color/black"
+            android:layout_marginEnd="10dp"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

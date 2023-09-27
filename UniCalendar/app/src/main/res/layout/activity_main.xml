@@ -14,16 +14,16 @@
             />
 
         <EditText
-            android:id="@+id/tv_usu"
+            android:id="@+id/et_correo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Usuario"
+        android:hint="Correo"
         android:inputType="text"
 
         android:minHeight="48dp" />
 
         <EditText
-            android:id="@+id/tv_contra"
+            android:id="@+id/et_contra"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Contraseña"

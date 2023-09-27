@@ -14,45 +14,23 @@
         android:text="Fecha elegida"
         android:textSize="15sp" />
     <EditText
-        android:id="@+id/et_clase"
+        android:id="@+id/et_reco"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Clase"
+        android:hint="Recordatorio"
         android:inputType="text"
 
         android:minHeight="48dp" />
+
     <EditText
         android:id="@+id/et_hora"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Hora Inicial"
-        android:focusable="false"
-        android:clickable="true"
-        android:minHeight="48dp" />
-    <EditText
-        android:id="@+id/et_horaF"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Hora Final"
-        android:focusable="false"
-        android:clickable="true"
-        android:minHeight="48dp" />
-    <EditText
-        android:id="@+id/et_profesor"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Profesor"
+        android:hint="Hora"
         android:inputType="text"
 
         android:minHeight="48dp" />
-    <EditText
-        android:id="@+id/et_detalle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Detalle"
-        android:inputType="text"
 
-        android:minHeight="48dp" />
     <Button
         android:id="@+id/btn_guardar"
         android:layout_width="wrap_content"

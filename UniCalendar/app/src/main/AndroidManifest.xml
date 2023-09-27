@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,6 +15,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UniCalendar"
         tools:targetApi="31">
+        <activity
+            android:name=".noti"
+            android:exported="false" />
+        <activity
+            android:name=".eventView"
+            android:exported="false" />
+        <activity
+            android:name=".seeEvents"
+            android:exported="false" />
+        <activity
+            android:name=".seeBackup"
+            android:exported="false" />
+        <activity
+            android:name=".eventOrNoti"
+            android:exported="false" />
+        <activity
+            android:name=".EditarPerfilActivity"
+            android:exported="false" />
         <activity
             android:name=".EventActivity"
             android:exported="false" />

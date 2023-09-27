@@ -1,23 +1,17 @@
-package co.edu.ue.unicalendar;
+package co.edu.ue.unicalendar.adaptadores;
 
-import androidx.appcompat.app.AppCompatActivity;
+public class Usuarios {
 
-import android.os.Bundle;
-
-public class Usuario {
-    private String id;
+    private int id;
     private String name;
     private String email;
     private String password;
-    private String foto;
 
-    // Agrega getters y setters para los campos si es necesario
-
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -43,13 +37,5 @@ public class Usuario {
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    public String getFoto() {
-        return foto;
-    }
-
-    public void setFoto(String foto) {
-        this.foto = foto;
     }
 }
